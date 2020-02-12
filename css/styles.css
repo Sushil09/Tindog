@@ -1,0 +1,186 @@
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#top_header {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+
+.dwn_button {
+    margin-top: 200px
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 1.75rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid_new {
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#nav_link {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#left_block_logo {
+    padding-bottom: 72px;
+}
+
+.img_ip {
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: #fff;
+}
+
+.download {
+    margin: 5% 3% 5% 0;
+}
+
+.navbar-expand-lg {
+    margin-left: 0;
+    padding-left: 0px;
+}
+
+#features {
+    padding: 3% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.press_logo {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* CTA */
+
+#footer_content {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    /* font-weight: 1000px; */
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    font-size: 3.5rem;
+    padding: 2% 15%;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+}
+
+.fab,
+.fas {
+    padding: 5px;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    .img_ip {
+        position: static;
+        transform: rotate(0);
+    }
+}
